@@ -18,6 +18,7 @@ namespace ElectricSystem
             invertor.PrintSpecs();
             generator.SetRealPower(90);
             invertor.SetRealPower(50);
+            Console.ReadLine();
         }
     }
 
@@ -76,6 +77,7 @@ namespace ElectricSystem
             }
             else _reactivePowerOutput = reactivePower;
         }
+
 
     }
 }
