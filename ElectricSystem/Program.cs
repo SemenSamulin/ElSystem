@@ -78,6 +78,10 @@ namespace ElectricSystem
             else _reactivePowerOutput = reactivePower;
         }
 
+        public void DoSMTH()
+        { 
+            //что то делает
+        }
 
     }
 }
